@@ -1,0 +1,28 @@
+﻿Build started 10/21/2014 3:47:33 PM.
+     1>Project "C:\CS 451\cs451-PA4\vcfiles\reliefmap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I../mathtool /I../modelgraph /I../soil /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D FREEGLUT_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>c:\cs 451\cs451-pa4\draw.h(219): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\cs 451\cs451-pa4\draw.h(220): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\cs 451\cs451-pa4\draw.h(221): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CS 451\cs451-PA4\vcfiles\Debug\reliefmap.exe" /INCREMENTAL /NOLOGO /LIBPATH:../GL glew32sd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\CS 451\cs451-PA4\vcfiles\Debug\reliefmap.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\CS 451\cs451-PA4\vcfiles\Debug\reliefmap.lib" /MACHINE:X86 Debug\gli.obj
+         Debug\main.obj
+         Debug\Basic.obj
+         Debug\Quaternion.obj
+         Debug\model.obj
+         Debug\ModelEdge.obj
+         Debug\ModelGraph.obj
+         Debug\ModelNode.obj
+         Debug\shader.obj
+         Debug\image_DXT.obj
+         Debug\image_helper.obj
+         Debug\SOIL.obj
+         Debug\stb_image_aug.obj
+         reliefmap.vcxproj -> C:\CS 451\cs451-PA4\vcfiles\Debug\reliefmap.exe
+     1>Done Building Project "C:\CS 451\cs451-PA4\vcfiles\reliefmap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.66
